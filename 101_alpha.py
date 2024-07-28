@@ -29,6 +29,7 @@ def main():
     stock=Alphas(df)
     df['alpha001']=stock.alpha001() 
     print(df['alpha001'])
+    print(df['alpha001'].describe())
     pass
 
 
